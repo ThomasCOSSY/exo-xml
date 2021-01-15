@@ -10,6 +10,31 @@
 </head>
 
 <body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light menu">
+  <a class="navbar-brand " href="http://exo-xml/accueil.html">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="http://exo-xml/accueil.html">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://exo-xml/aboutUs.html">Qui sommes nous ?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://exo-xml/opinion.html">Nos clients témoignent</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://exo-xml/contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     <div>
         <h1>Nous n'avons pas trouvez la page, mais bonne nouvelle ! nous avons trouvé Mariah !!!</h1>
     </div>

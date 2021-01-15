@@ -1,18 +1,7 @@
 <?php
-// mettre dans une variable le ficher xml
-// $file = "source.xml";
-// // $fp pour File Parse, fonction qui va permettre d ouvrir le fichier grace au "fopen" le "r" c'est read-only
-// $fp = fopen($file , "r");
-// // Ensuite il y a une erreur si jamais la variable fp n'est pas définie
-// if (!$fp) die("Pas de fichier");
-
-
-    // Affichage "brut" de la ligne convertie en HTML
-    // Et ensuite une boucle qui lit chaque ligne en mettant un br entre chaque sans le br ça ne fonctionne pas
-   
-// while ( $ligneXML = fgets($fp)) {
-//     echo $ligneXML."<br />";
-// }
+if (!isset($_GET["page"])) {
+  header("Location: accueil");
+}
 
 $data = "source.xml";
     $xml = simplexml_load_file($data);
@@ -26,9 +15,7 @@ $data = "source.xml";
     $opinionTitle = $xml->page[2]->title;
 
     $contact = $xml->page[3]->content;
-    $contactTitle = $xml->page[3]->title;
-
-    
+    $contactTitle = $xml->page[3]->title;    
 
 ?> 
 
